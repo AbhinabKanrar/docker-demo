@@ -4,3 +4,11 @@
 4. docker login
 5. docker tag docker-demo abhinabyte/docker-demo:part1
 6. docker run -p 8080:8080 abhinabyte/docker-demo:part1
+7. docker-compose.yml
+8. docker swarm init
+9. docker stack deploy -c docker-compose.yml docker-demo
+10. docker service ls
+11. docker service ps docker-demo_web
+12. docker container ls -q
+13. docker stack rm docker-demo
+14. docker swarm leave --force
