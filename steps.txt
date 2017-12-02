@@ -1,0 +1,6 @@
+1. docker build -f Dockerfile -t docker-demo .
+2. docker images
+3. docker run -p 8080:8080 docker-demo
+4. docker login
+5. docker tag docker-demo abhinabyte/docker-demo:part1
+6. docker run -p 8080:8080 abhinabyte/docker-demo:part1
